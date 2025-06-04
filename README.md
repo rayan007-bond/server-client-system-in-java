@@ -1,8 +1,6 @@
 # server-client-system-in-java
 A Java-based client-server chat app with a Swing GUI supporting real-time messaging, file transfer, and command execution using JSON over sockets. It features multithreaded server handling and an interactive client interface for smooth communication and file exchange.
 
-# 💬 Java Chat Application with GUI, File Transfer, and Command Execution
-
 This is a multithreaded Java Client-Server Chat Application using **Swing GUI** on the client side and a **JSON-based protocol** for communication. It supports:
 
 - ✅ Text messaging between users

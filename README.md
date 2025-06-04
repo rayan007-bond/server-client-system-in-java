@@ -24,21 +24,66 @@ This is a multithreaded Java Client-Server Chat Application using **Swing GUI** 
 
 ---
 
+## 🧰 Requirements
+
+- Java JDK 8 or higher
+- `json.jar` (included)
+- A modern IDE like IntelliJ IDEA, Eclipse, or VS Code
 
 ---
 
-## 🚀 Getting Started
+## 🔧 Setup Instructions
 
-### 1️⃣ Prerequisites
+### 💡 Server Setup
 
-- ✅ Java JDK 8 or later
-- ✅ Any IDE (e.g., IntelliJ, Eclipse, VS Code) or terminal
-- ✅ [`org.json`](https://mvnrepository.com/artifact/org.json/json) library (download `json.jar`)
+1. Open your IDE and load the project.
+2. Compile and run `Server.java`.
+3. Ensure `shared_files/` directory exists for file sharing.
 
-### 2️⃣ Compilation
+### 💬 Client Setup
 
-In terminal:
+1. Open `ClientAppGUI.java`.
+2. Run the program.
+3. Enter the server IP and connect.
+4. Start chatting or download shared files.
 
-```bash
-javac -cp .;json.jar Server.java ClientHandler.java ClientAppGUI.java
+---
+
+## 📎 How It Works
+
+- The **Server** listens on a specified port and spawns a `ClientHandler` thread for each connecting client.
+- Each **Client** sends/receives messages through socket communication.
+- File sharing is handled by allowing clients to download files from the `shared_files/` directory.
+- Messages and commands are exchanged using the **JSON** format for consistency.
+
+---
+
+## 🔒 Security Note
+
+This is a basic chat app intended for learning purposes. For production use:
+- Add encryption (SSL/TLS)
+- Authenticate users
+- Implement message logging & rate limiting
+
+---
+
+## 📄 License
+
+This project is open-source and free to use under the MIT License.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📧 Contact
+
+Made with ❤️ by **Muhammad Rayan**  
+Email: [muhammadraya182@gmail.com](mailto:muhammadraya182@gmail.com)  
+Club: BUITEMS Developer Club
+
+---
 

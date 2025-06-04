@@ -58,6 +58,12 @@ This is a multithreaded Java Client-Server Chat Application using **Swing GUI** 
 
 ---
 
+In terminal:
+
+```bash
+javac -cp .;json.jar Server.java ClientHandler.java ClientAppGUI.java
+```
+---
 ## 🔒 Security Note
 
 This is a basic chat app intended for learning purposes. For production use:

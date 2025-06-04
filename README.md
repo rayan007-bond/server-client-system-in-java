@@ -28,6 +28,7 @@ This is a multithreaded Java Client-Server Chat Application using **Swing GUI** 
 
 ## 🗂️ Project Structure
 
+```plaintext
 JavaChatApp/
 ├── ClientAppGUI.java     # GUI client code
 ├── Server.java           # Main server code

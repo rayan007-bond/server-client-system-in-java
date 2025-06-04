@@ -81,9 +81,8 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📧 Contact
 
-Made with ❤️ by **Muhammad Rayan**  
+Made by **Muhammad Rayan**  
 Email: [muhammadraya182@gmail.com](mailto:muhammadraya182@gmail.com)  
-Club: BUITEMS Developer Club
 
 ---
 

@@ -29,11 +29,11 @@ This is a multithreaded Java Client-Server Chat Application using **Swing GUI** 
 ## 🗂️ Project Structure
 
 JavaChatApp/
-├── ClientAppGUI.java # GUI client code
-├── Server.java # Main server code
-├── ClientHandler.java # Handles individual clients on server
-├── downloads/ # Where files are saved on client side
-├── shared_files/ # Server-side files available for clients
-├── json.jar # JSON library (org.json)
-└── README.md # You're here!
+├── ClientAppGUI.java     # GUI client code
+├── Server.java           # Main server code
+├── ClientHandler.java    # Handles individual clients on server
+├── downloads/            # Where files are saved on client side
+├── shared_files/         # Server-side files available for clients
+├── json.jar              # JSON library (org.json)
+└── README.md             # You're here!
 

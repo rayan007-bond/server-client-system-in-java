@@ -26,15 +26,21 @@ This is a multithreaded Java Client-Server Chat Application using **Swing GUI** 
 
 ---
 
-## 🗂️ Project Structure
 
-```plaintext
-JavaChatApp/
-├── ClientAppGUI.java     # GUI client code
-├── Server.java           # Main server code
-├── ClientHandler.java    # Handles individual clients on server
-├── downloads/            # Where files are saved on client side
-├── shared_files/         # Server-side files available for clients
-├── json.jar              # JSON library (org.json)
-└── README.md             # You're here!
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Prerequisites
+
+- ✅ Java JDK 8 or later
+- ✅ Any IDE (e.g., IntelliJ, Eclipse, VS Code) or terminal
+- ✅ [`org.json`](https://mvnrepository.com/artifact/org.json/json) library (download `json.jar`)
+
+### 2️⃣ Compilation
+
+In terminal:
+
+```bash
+javac -cp .;json.jar Server.java ClientHandler.java ClientAppGUI.java
 
